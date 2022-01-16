@@ -5,21 +5,20 @@ package data
 
 import (
 	"encoding/json"
-	"time"
 	"fmt"
+	"time"
 )
 
-
 type Goal struct {
-	Amount int
+	Amount      int
 	Repetitions int
-	Duration time.Duration
+	Duration    time.Duration
 }
 
 func (g *Goal) UnmarshalJSON(b []byte) error {
 	parts := []json.RawMessage{}
 
-		//fmt.Printf("wag\n")
+	//fmt.Printf("wag\n")
 	if err := json.Unmarshal(b, &parts); err != nil {
 		return err
 	}
@@ -28,7 +27,7 @@ func (g *Goal) UnmarshalJSON(b []byte) error {
 		return fmt.Errorf("need 2 parts: %v", parts)
 	}
 
-		//fmt.Printf("hmpf\n")
+	//fmt.Printf("hmpf\n")
 	if err := json.Unmarshal(parts[0], &g.Amount); err != nil {
 		return err
 	}
@@ -36,7 +35,7 @@ func (g *Goal) UnmarshalJSON(b []byte) error {
 	l := len(parts[1])
 	if parts[1][0] == '"' && parts[1][l-1] == '"' {
 		// try duration first
-		if dur, err := time.ParseDuration(string(parts[1][1:l-1])); err != nil {
+		if dur, err := time.ParseDuration(string(parts[1][1 : l-1])); err != nil {
 			return fmt.Errorf("gna: %v (%v)", err, string(parts[1]))
 		} else {
 			g.Duration = dur
@@ -52,24 +51,21 @@ func (g *Goal) UnmarshalJSON(b []byte) error {
 }
 
 type Step struct {
-	Name string
+	Name  string
 	Goals []Goal
 }
 
 type Exercise struct {
-	Name string
+	Name  string
 	Steps []Step
 }
 
-
-
-
 /*
 
-*/
+ */
 type Workout struct {
 	Name string `json:"name"`
-	Sets []int `json:"sets"`
+	Sets []int  `json:"sets"`
 }
 
 /*
@@ -91,4 +87,3 @@ type Plan struct {
 	//Days map[string][]Workout `json:"days"`
 	Days Days `json:"days"`
 }
-
