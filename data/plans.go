@@ -2,7 +2,6 @@
 package data
 
 //*
-//import "time"
 
 var Plans = map[string]Plan{
 	"Good Behaviour": Plan{
@@ -59,8 +58,6 @@ var Plans = map[string]Plan{
 				},
 			},
 		},
-
-
 	},
 	"New Blood": Plan{
 		Name: "New Blood",
@@ -108,8 +105,6 @@ var Plans = map[string]Plan{
 			"Wednesday": []Workout{
 			},
 		},
-
-
 	},
 	"Solitary Confinement": Plan{
 		Name: "Solitary Confinement",
@@ -251,8 +246,6 @@ var Plans = map[string]Plan{
 				},
 			},
 		},
-
-
 	},
 	"Supermax": Plan{
 		Name: "Supermax",
@@ -356,8 +349,6 @@ var Plans = map[string]Plan{
 				},
 			},
 		},
-
-
 	},
 	"Veterano": Plan{
 		Name: "Veterano",
@@ -419,8 +410,6 @@ var Plans = map[string]Plan{
 				},
 			},
 		},
-
-
 	},
 }
 //*/
