@@ -1,0 +1,464 @@
+{
+	"pushups": {
+		"id": "pushups",
+		"name": "Pushups",
+		"steps": [
+			{
+				"name": "Wall Pushups",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 25 ],
+					[ 3, 50 ]
+				]
+			}, {
+				"name": "Incline Pushups",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 20 ],
+					[ 3, 40 ]
+				]
+			}, {
+				"name": "Kneeling Pushups",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 15 ],
+					[ 3, 30 ]
+				]
+			}, {
+				"name": "Half Pushups",
+				"goals": [
+					[ 1, 8 ],
+					[ 2, 12 ],
+					[ 3, 25 ]
+				]
+			}, {
+				"name": "Full Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "Close Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "Uneven Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "1/2 One-Arm Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "Lever Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "One-Arm Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 1, 100 ]
+				]
+			}
+		]
+	},
+	"squats": {
+		"id": "squats",
+		"name": "Squats",
+		"steps": [
+			{
+				"name": "Shoulderstand Squats",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 25 ],
+					[ 3, 50 ]
+				]
+			}, {
+				"name": "Jackknife Squats",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 20 ],
+					[ 3, 40 ]
+				]
+			}, {
+				"name": "Supported Squats",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 15 ],
+					[ 3, 30 ]
+				]
+			}, {
+				"name": "Half Squats",
+				"goals": [
+					[ 1, 8 ],
+					[ 2, 35 ],
+					[ 2, 50 ]
+				]
+			}, {
+				"name": "Full Squats",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 30 ]
+				]
+			}, {
+				"name": "Close Squats",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "Uneven Squats",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "1/2 One-Leg Squats",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "Assisted One-Leg Squats",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "One-Leg Squats",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 50 ]
+				]
+			}
+		]
+	},
+	"pullups": {
+		"id": "pullups",
+		"name": "Pullups",
+		"steps": [
+			{
+				"name": "Vertical Pulls",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 20 ],
+					[ 3, 40 ]
+				]
+			}, {
+				"name": "Horizontal Pulls",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 20 ],
+					[ 3, 30 ]
+				]
+			}, {
+				"name": "Jackknife Pulls",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 15 ],
+					[ 3, 20 ]
+				]
+			}, {
+				"name": "Half Pullups",
+				"goals": [
+					[ 1, 8 ],
+					[ 2, 11 ],
+					[ 2, 15 ]
+				]
+			}, {
+				"name": "Full Pullups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 8 ],
+					[ 2, 10 ]
+				]
+			}, {
+				"name": "Close Pullups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 8 ],
+					[ 2, 10 ]
+				]
+			}, {
+				"name": "Uneven Pullups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 7 ],
+					[ 2, 9 ]
+				]
+			}, {
+				"name": "1/2 One-Arm Pullups",
+				"goals": [
+					[ 1, 4 ],
+					[ 2, 6 ],
+					[ 2, 8 ]
+				]
+			}, {
+				"name": "Assisted One-Arm Pullups",
+				"goals": [
+					[ 1, 3 ],
+					[ 2, 5 ],
+					[ 2, 7 ]
+				]
+			}, {
+				"name": "One-Arm Pullups",
+				"goals": [
+					[ 1, 1 ],
+					[ 2, 3 ],
+					[ 2, 6 ]
+				]
+			}
+		]
+	},
+	"leg-raises": {
+		"id": "leg-raises",
+		"name": "Leg Raises",
+		"steps": [
+			{
+				"name": "Knee Tucks",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 25 ],
+					[ 3, 40 ]
+				]
+			}, {
+				"name": "Flat Knee Raises",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 20 ],
+					[ 3, 35 ]
+				]
+			}, {
+				"name": "Flat Bent Leg Raises",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 15 ],
+					[ 3, 30 ]
+				]
+			}, {
+				"name": "Flat Frog Raises",
+				"goals": [
+					[ 1, 8 ],
+					[ 2, 15 ],
+					[ 3, 25 ]
+				]
+			}, {
+				"name": "Flat Straight Leg Raises",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "Hanging Knee Raises",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 15 ]
+				]
+			}, {
+				"name": "Hanging Bent Leg Raises",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 15 ]
+				]
+			}, {
+				"name": "Hanging Frog Raises",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 15 ]
+				]
+			}, {
+				"name": "Partial Straight Leg Raises",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 15 ]
+				]
+			}, {
+				"name": "Hanging Straight Leg Raises",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 30 ]
+				]
+			}
+		]
+	},
+	"bridges": {
+		"id": "bridges",
+		"name": "Bridges",
+		"steps": [
+			{
+				"name": "Short Bridges",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 25 ],
+					[ 3, 50 ]
+				]
+			}, {
+				"name": "Straight Bridges",
+				"goals": [
+					[ 1, 10 ],
+					[ 2, 20 ],
+					[ 3, 40 ]
+				]
+			}, {
+				"name": "Angled Bridges",
+				"goals": [
+					[ 1, 8 ],
+					[ 2, 15 ],
+					[ 3, 30 ]
+				]
+			}, {
+				"name": "Head Bridges",
+				"goals": [
+					[ 1, 8 ],
+					[ 2, 15 ],
+					[ 2, 25 ]
+				]
+			}, {
+				"name": "Half Bridges",
+				"goals": [
+					[ 1, 8 ],
+					[ 2, 15 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "Full Bridges",
+				"goals": [
+					[ 1, 6 ],
+					[ 2, 10 ],
+					[ 2, 15 ]
+				]
+			}, {
+				"name": "Wall Walking Bridges (Down)",
+				"goals": [
+					[ 1, 3 ],
+					[ 2, 6 ],
+					[ 2, 10 ]
+				]
+			}, {
+				"name": "Wall Walking Bridges (Up)",
+				"goals": [
+					[ 1, 2 ],
+					[ 2, 4 ],
+					[ 2, 8 ]
+				]
+			}, {
+				"name": "Closing Bridges",
+				"goals": [
+					[ 1, 1 ],
+					[ 2, 3 ],
+					[ 2, 6 ]
+				]
+			}, {
+				"name": "Stand-To-Stand Bridges",
+				"goals": [
+					[ 1, 1 ],
+					[ 2, 3 ],
+					[ 2, 30 ]
+				]
+			}
+		]
+	},
+	"handstand-pushups": {
+		"id": "handstand-pushups",
+		"name": "Handstand Pushups",
+		"steps": [
+			{
+				"name": "Wall Headstands",
+				"goals": [
+					[ 1, "30s" ],
+					[ 1, "1m" ],
+					[ 1, "2m" ]
+				]
+			}, {
+				"name": "Crow Stands",
+				"goals": [
+					[ 1, "10s" ],
+					[ 1, "30s" ],
+					[ 1, "1m" ]
+				]
+			}, {
+				"name": "Wall Handstands",
+				"goals": [
+					[ 1, "30s" ],
+					[ 1, "1m" ],
+					[ 1, "2m" ]
+				]
+			}, {
+				"name": "Half Handstand Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 20 ]
+				]
+			}, {
+				"name": "Handstand Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 10 ],
+					[ 2, 15 ]
+				]
+			}, {
+				"name": "Close Handstand Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 9 ],
+					[ 2, 12 ]
+				]
+			}, {
+				"name": "Uneven Handstand Pushups",
+				"goals": [
+					[ 1, 5 ],
+					[ 2, 8 ],
+					[ 2, 10 ]
+				]
+			}, {
+				"name": "1/2 One-Arm Handstand Pushups",
+				"goals": [
+					[ 1, 4 ],
+					[ 2, 6 ],
+					[ 2, 8 ]
+				]
+			}, {
+				"name": "Lever Handstand Pushups",
+				"goals": [
+					[ 1, 3 ],
+					[ 2, 4 ],
+					[ 2, 6 ]
+				]
+			}, {
+				"name": "One-Arm Handstand Pushups",
+				"goals": [
+					[ 1, 1 ],
+					[ 2, 2 ],
+					[ 1, 5 ]
+				]
+			}
+		]
+	}
+}

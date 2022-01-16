@@ -1,0 +1,126 @@
+{
+	"New Blood": {
+		"days": {
+			"Monday": [
+				{ "name": "Pushups", "sets": [ 2, 3 ] },
+				{ "name": "Leg raises", "sets": [ 2, 3 ] }
+			],
+			"Tuesday": [],
+			"Wednesday": [],
+			"Thursday": [],
+			"Friday": [
+				{ "name": "Pullups", "sets": [ 2, 3 ] },
+				{ "name": "Squats", "sets": [ 2, 3 ] }
+			],
+			"Saturday": [],
+			"Sunday": []
+		}
+	},
+	"Good Behaviour": {
+		"days": {
+			"Monday": [
+				{ "name": "Pushups", "sets": [ 2 ] },
+				{ "name": "Leg raises", "sets": [ 2 ] }
+			],
+			"Tuesday": [],
+			"Wednesday": [
+				{ "name": "Pullups", "sets": [ 2 ] },
+				{ "name": "Squats", "sets": [ 2 ] }
+			],
+			"Thursday": [],
+			"Friday": [
+				{ "name": "Handstand pushups", "sets": [ 2 ] },
+				{ "name": "Bridges", "sets": [ 2 ] }
+			],
+			"Saturday": [],
+			"Sunday": []
+		}
+	},
+	"Veterano": {
+		"days": {
+			"Monday": [
+				{ "name": "Pullups", "sets": [ 2, 3 ] }
+			],
+			"Tuesday": [
+				{ "name": "Bridges", "sets": [ 2, 3 ] }
+			],
+			"Wednesday": [
+				{ "name": "Handstand pushups", "sets": [ 2, 3 ] }
+			],
+			"Thursday": [
+				{ "name": "Leg raises", "sets": [ 2, 3 ] }
+			],
+			"Friday": [
+				{ "name": "Squats", "sets": [ 2, 3 ] }
+			],
+			"Saturday": [
+				{ "name": "Pushups", "sets": [ 2, 3 ] }
+			],
+			"Sunday": []
+		}
+	},
+	"Solitary Confinement": {
+		"days": {
+			"Monday": [
+				{ "name": "Pullups", "sets": [ 3, 5 ] },
+				{ "name": "Squats", "sets": [ 3, 5 ] },
+				{ "name": "Grip work", "sets": [] }
+			],
+			"Tuesday": [
+				{ "name": "Pushups", "sets": [ 3, 5 ] },
+				{ "name": "Leg raises", "sets": [ 3, 5 ] },
+				{ "name": "Calf work", "sets": [ 3, 5 ] }
+			],
+			"Wednesday": [
+				{ "name": "Handstand pushups", "sets": [ 3, 5 ] },
+				{ "name": "Bridges", "sets": [ 3, 5 ] },
+				{ "name": "Neck work", "sets": [ 2, 4 ] }
+			],
+			"Thursday": [
+				{ "name": "Pullups", "sets": [ 3, 5 ] },
+				{ "name": "Squats", "sets": [ 3, 5 ] },
+				{ "name": "Grip work", "sets": [] }
+			],
+			"Friday": [
+				{ "name": "Pushups", "sets": [ 3, 5 ] },
+				{ "name": "Leg raises", "sets": [ 3, 5 ] },
+				{ "name": "Calf work", "sets": [ 3, 5 ] }
+			],
+			"Saturday": [
+				{ "name": "Handstand pushups", "sets": [ 3, 5 ] },
+				{ "name": "Bridges", "sets": [ 3, 5 ] },
+				{ "name": "Neck work", "sets": [ 2, 4 ] }
+			],
+			"Sunday": []
+		}
+	},
+	"Supermax": {
+		"days": {
+			"Monday": [
+				{ "name": "Pullups", "sets": [ 10, 50 ] },
+				{ "name": "Squats", "sets": [ 10, 50 ] }
+			],
+			"Tuesday": [
+				{ "name": "Pushups", "sets": [ 10, 50 ] },
+				{ "name": "Leg raises", "sets": [ 10, 50 ] }
+			],
+			"Wednesday": [
+				{ "name": "Handstand pushups", "sets": [ 10, 50 ] },
+				{ "name": "Bridges", "sets": [ 10, 50 ] }
+			],
+			"Thursday": [
+				{ "name": "Pullups", "sets": [ 10, 50 ] },
+				{ "name": "Squats", "sets": [ 10, 50 ] }
+			],
+			"Friday": [
+				{ "name": "Pushups", "sets": [ 10, 50 ] },
+				{ "name": "Leg raises", "sets": [ 10, 50 ] }
+			],
+			"Saturday": [
+				{ "name": "Handstand pushups", "sets": [ 10, 50 ] },
+				{ "name": "Bridges", "sets": [ 10, 50 ] }
+			],
+			"Sunday": []
+		}
+	}
+}
