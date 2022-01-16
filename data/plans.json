@@ -3,7 +3,7 @@
 		"days": {
 			"Monday": [
 				{ "name": "Pushups", "sets": [ 2, 3 ] },
-				{ "name": "Leg raises", "sets": [ 2, 3 ] }
+				{ "name": "Leg Raises", "sets": [ 2, 3 ] }
 			],
 			"Tuesday": [],
 			"Wednesday": [],
@@ -20,7 +20,7 @@
 		"days": {
 			"Monday": [
 				{ "name": "Pushups", "sets": [ 2 ] },
-				{ "name": "Leg raises", "sets": [ 2 ] }
+				{ "name": "Leg Raises", "sets": [ 2 ] }
 			],
 			"Tuesday": [],
 			"Wednesday": [
@@ -29,7 +29,7 @@
 			],
 			"Thursday": [],
 			"Friday": [
-				{ "name": "Handstand pushups", "sets": [ 2 ] },
+				{ "name": "Handstand Pushups", "sets": [ 2 ] },
 				{ "name": "Bridges", "sets": [ 2 ] }
 			],
 			"Saturday": [],
@@ -45,10 +45,10 @@
 				{ "name": "Bridges", "sets": [ 2, 3 ] }
 			],
 			"Wednesday": [
-				{ "name": "Handstand pushups", "sets": [ 2, 3 ] }
+				{ "name": "Handstand Pushups", "sets": [ 2, 3 ] }
 			],
 			"Thursday": [
-				{ "name": "Leg raises", "sets": [ 2, 3 ] }
+				{ "name": "Leg Raises", "sets": [ 2, 3 ] }
 			],
 			"Friday": [
 				{ "name": "Squats", "sets": [ 2, 3 ] }
@@ -68,11 +68,11 @@
 			],
 			"Tuesday": [
 				{ "name": "Pushups", "sets": [ 3, 5 ] },
-				{ "name": "Leg raises", "sets": [ 3, 5 ] },
+				{ "name": "Leg Raises", "sets": [ 3, 5 ] },
 				{ "name": "Calf work", "sets": [ 3, 5 ] }
 			],
 			"Wednesday": [
-				{ "name": "Handstand pushups", "sets": [ 3, 5 ] },
+				{ "name": "Handstand Pushups", "sets": [ 3, 5 ] },
 				{ "name": "Bridges", "sets": [ 3, 5 ] },
 				{ "name": "Neck work", "sets": [ 2, 4 ] }
 			],
@@ -83,11 +83,11 @@
 			],
 			"Friday": [
 				{ "name": "Pushups", "sets": [ 3, 5 ] },
-				{ "name": "Leg raises", "sets": [ 3, 5 ] },
+				{ "name": "Leg Raises", "sets": [ 3, 5 ] },
 				{ "name": "Calf work", "sets": [ 3, 5 ] }
 			],
 			"Saturday": [
-				{ "name": "Handstand pushups", "sets": [ 3, 5 ] },
+				{ "name": "Handstand Pushups", "sets": [ 3, 5 ] },
 				{ "name": "Bridges", "sets": [ 3, 5 ] },
 				{ "name": "Neck work", "sets": [ 2, 4 ] }
 			],
@@ -102,10 +102,10 @@
 			],
 			"Tuesday": [
 				{ "name": "Pushups", "sets": [ 10, 50 ] },
-				{ "name": "Leg raises", "sets": [ 10, 50 ] }
+				{ "name": "Leg Raises", "sets": [ 10, 50 ] }
 			],
 			"Wednesday": [
-				{ "name": "Handstand pushups", "sets": [ 10, 50 ] },
+				{ "name": "Handstand Pushups", "sets": [ 10, 50 ] },
 				{ "name": "Bridges", "sets": [ 10, 50 ] }
 			],
 			"Thursday": [
@@ -114,10 +114,10 @@
 			],
 			"Friday": [
 				{ "name": "Pushups", "sets": [ 10, 50 ] },
-				{ "name": "Leg raises", "sets": [ 10, 50 ] }
+				{ "name": "Leg Raises", "sets": [ 10, 50 ] }
 			],
 			"Saturday": [
-				{ "name": "Handstand pushups", "sets": [ 10, 50 ] },
+				{ "name": "Handstand Pushups", "sets": [ 10, 50 ] },
 				{ "name": "Bridges", "sets": [ 10, 50 ] }
 			],
 			"Sunday": []
