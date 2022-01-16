@@ -4,8 +4,7 @@ package data
 import "time"
 
 var Exercises = map[string]Exercise{
-	"bridges": Exercise{
-		Id: "bridges",
+	"Bridges": Exercise{
 		Name: "Bridges",
 		Steps: []Step{
 			Step{
@@ -90,8 +89,7 @@ var Exercises = map[string]Exercise{
 			},
 		},
 	},
-	"handstand-pushups": Exercise{
-		Id: "handstand-pushups",
+	"Handstand Pushups": Exercise{
 		Name: "Handstand Pushups",
 		Steps: []Step{
 			Step{
@@ -176,8 +174,7 @@ var Exercises = map[string]Exercise{
 			},
 		},
 	},
-	"leg-raises": Exercise{
-		Id: "leg-raises",
+	"Leg Raises": Exercise{
 		Name: "Leg Raises",
 		Steps: []Step{
 			Step{
@@ -262,8 +259,7 @@ var Exercises = map[string]Exercise{
 			},
 		},
 	},
-	"pullups": Exercise{
-		Id: "pullups",
+	"Pullups": Exercise{
 		Name: "Pullups",
 		Steps: []Step{
 			Step{
@@ -348,8 +344,7 @@ var Exercises = map[string]Exercise{
 			},
 		},
 	},
-	"pushups": Exercise{
-		Id: "pushups",
+	"Pushups": Exercise{
 		Name: "Pushups",
 		Steps: []Step{
 			Step{
@@ -434,8 +429,7 @@ var Exercises = map[string]Exercise{
 			},
 		},
 	},
-	"squats": Exercise{
-		Id: "squats",
+	"Squats": Exercise{
 		Name: "Squats",
 		Steps: []Step{
 			Step{

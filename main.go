@@ -76,7 +76,7 @@ func DrawDays(days *widget.Accordion, opt string, t time.Time, toggleFn func()) 
 				// exercise view on tap
 				wod := NewTapLabel(lt, workout.Name, func(name string) {
 					// make sure exercise exists
-					_, exists := data.Exercises[data.ExerciseId(name)]
+					_, exists := data.Exercises[name]
 					if !exists {
 						return
 					}
@@ -164,7 +164,7 @@ func main() {
 		userexe = opt
 
 		// load step for the given exercise
-		userstep = a.Preferences().IntWithFallback(fmt.Sprintf("WorkoutStep:%s", data.ExerciseId(userexe)), -1)
+		userstep = a.Preferences().IntWithFallback(fmt.Sprintf("WorkoutStep:%s", userexe), -1)
 
 		// clear any previously selected list item
 		exerciseList.UnselectAll()
@@ -217,7 +217,12 @@ func main() {
 			name := body.Objects[0].(*widget.Label)
 			levels := body.Objects[1].(*fyne.Container)
 
-			steps := data.Exercises[data.ExerciseId(userexe)].Steps
+			exe, found := data.Exercises[userexe]
+			if !found {
+				return
+			}
+
+			steps := exe.Steps
 
 			number.SetText(fmt.Sprintf("%d", id+1))
 			name.SetText(steps[id].Name)
@@ -235,7 +240,7 @@ func main() {
 		},
 	)
 	exerciseList.OnSelected = func(id widget.ListItemID) {
-		a.Preferences().SetInt(fmt.Sprintf("WorkoutStep:%s", data.ExerciseId(userexe)), id)
+		a.Preferences().SetInt(fmt.Sprintf("WorkoutStep:%s", userexe), id)
 	}
 
 	exerciseView := container.New(

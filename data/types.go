@@ -7,7 +7,6 @@ import (
 	"encoding/json"
 	"time"
 	"fmt"
-	"strings"
 )
 
 
@@ -58,7 +57,6 @@ type Step struct {
 }
 
 type Exercise struct {
-	Id string
 	Name string
 	Steps []Step
 }
@@ -94,7 +92,3 @@ type Plan struct {
 	Days Days `json:"days"`
 }
 
-
-func ExerciseId(name string) string {
-	return strings.ReplaceAll(strings.ToLower(name), " ", "-")
-}

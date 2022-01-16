@@ -61,8 +61,7 @@ import "time"
 
 var Exercises = map[string]Exercise{
 {{- range .Exercises }}
-	{{ printf "%q" .Id }}: Exercise{
-		Id: {{ printf "%q" .Id }},
+	{{ printf "%q" .Name }}: Exercise{
 		Name: {{ printf "%q" .Name }},
 		Steps: []Step{
 {{- range .Steps }}
