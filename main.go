@@ -74,7 +74,8 @@ func DrawDays(days *widget.Accordion, opt string, t time.Time, toggleFn func()) 
 				}
 
 				// exercise view on tap
-				wod := NewTapLabel(lt, workout.Name, func(name string) {
+				name := workout.Name
+				wod := NewTapLabel(lt, func(_ *TapLabel) {
 					// make sure exercise exists
 					_, exists := data.Exercises[name]
 					if !exists {

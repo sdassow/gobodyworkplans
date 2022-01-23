@@ -7,14 +7,12 @@ import (
 
 type TapLabel struct {
 	widget.Label
-	OnTap       func(string)
-	OnTapString string
+	OnTapped       func(*TapLabel)
 }
 
-func NewTapLabel(t string, s string, fn func(string)) *TapLabel {
+func NewTapLabel(t string, fn func(*TapLabel)) *TapLabel {
 	w := &TapLabel{
-		OnTap:       fn,
-		OnTapString: s,
+		OnTapped:       fn,
 	}
 	w.ExtendBaseWidget(w)
 	w.SetText(t)
@@ -23,5 +21,5 @@ func NewTapLabel(t string, s string, fn func(string)) *TapLabel {
 }
 
 func (w *TapLabel) Tapped(_ *fyne.PointEvent) {
-	w.OnTap(w.OnTapString)
+	w.OnTapped(w)
 }
