@@ -1,4 +1,4 @@
-module bodyworkplans
+module gobodyworkplans
 
 go 1.10
 

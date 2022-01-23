@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"bodyworkplans/data"
+	"gobodyworkplans/data"
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"

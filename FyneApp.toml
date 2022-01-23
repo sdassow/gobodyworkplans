@@ -1,8 +1,8 @@
-Website = "https://sdassow.github.io/bodyworkplans/"
+Website = "https://github.com/sdassow/gobodyworkplans"
 
 [Details]
   Icon = "favicon.png"
   Name = "BodyWorkPlans"
-  ID = "io.github.sdassow.bodyworkplans"
+  ID = "com.github.sdassow.gobodyworkplans"
   Version = "1.0.0"
   Build = 2
