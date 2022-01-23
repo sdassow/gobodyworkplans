@@ -1,0 +1,8 @@
+Website = "https://sdassow.github.io/bodyworkplans/"
+
+[Details]
+  Icon = "favicon.png"
+  Name = "BodyWorkPlans"
+  ID = "io.github.sdassow.bodyworkplans"
+  Version = "1.0.0"
+  Build = 2

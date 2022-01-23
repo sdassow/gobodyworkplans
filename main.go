@@ -134,6 +134,7 @@ func main() {
 	var toggleFn func()
 
 	a := app.NewWithID("io.github.sdassow.bodyworkplans")
+	a.SetIcon(resourceFaviconSvg)
 	w := a.NewWindow("BodyWorkPlans")
 
 	// selected workout plan
