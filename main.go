@@ -110,18 +110,6 @@ func DrawDays(days *widget.Accordion, opt string, t time.Time, toggleFn func()) 
 	}
 }
 
-func ExerciseMaxNameWidth(exe *data.Exercise) float32 {
-	var w float32
-	for _, step := range exe.Steps {
-		l := widget.NewLabel(step.Name)
-		s := l.Size()
-		if s.Width > w {
-			w = s.Width
-		}
-	}
-	return w
-}
-
 func prettyDuration(d time.Duration) string {
 	return strings.ReplaceAll(d.String(), "m0s", "m")
 }
